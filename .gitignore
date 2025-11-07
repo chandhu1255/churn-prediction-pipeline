@@ -1,0 +1,30 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Data - NEVER commit data!
+data/
+
+# Models - NEVER commit large model files!
+models/
+*.pkl
+*.model
+
+# MLflow - Ignore the local database
+mlflow.db
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
