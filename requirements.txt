@@ -1,0 +1,17 @@
+# For data manipulation
+pandas
+numpy
+
+# For plotting (in our notebook)
+matplotlib
+seaborn
+jupyter
+
+# The core ML toolkit
+scikit-learn
+
+# Our "challenger" model
+xgboost
+
+# Our experiment tracking "Lab Notebook"
+mlflow
