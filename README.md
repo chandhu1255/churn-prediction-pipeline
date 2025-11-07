@@ -54,7 +54,6 @@ This project is built around a modern MLOps workflow, separating discovery from 
 
 Clone the repository and set up the virtual environment.
 
-```sh
 # 1. Clone this repository
 # Make sure to use your own username and repo name!
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
