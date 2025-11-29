@@ -104,7 +104,7 @@ with mlflow.start_run(run_name="XGBoost_Weighted"):
     # We save the *entire* pipeline to a file for later use
     output_dir = "models"
     os.makedirs(output_dir, exist_ok=True)
-    model_path = os.path.join(output_dir, "churn_model_v1.pkl")
+    model_path = os.path.join(output_dir, "churn_model_v2.pkl")
     
     joblib.dump(model_pipeline, model_path)
     print(f"Model pipeline saved to {model_path}")

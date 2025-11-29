@@ -7,7 +7,7 @@ print("Prediction script started...")
 # --- 1. Load the "Product" ---
 print("Loading champion model pipeline...")
 # We're running from the root 'churn_project' folder, so the path is simple
-model_path = 'models/churn_model_v1.pkl'
+model_path = 'models/churn_model_v2.pkl'
 model_pipeline = joblib.load(model_path)
 print("Model loaded successfully.")
 
