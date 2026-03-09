@@ -1,17 +1,7 @@
-# For data manipulation
+fastapi
+uvicorn
 pandas
-numpy
-
-# For plotting (in our notebook)
-matplotlib
-seaborn
-jupyter
-
-# The core ML toolkit
+joblib
+pydantic
 scikit-learn
-
-# Our "challenger" model
 xgboost
-
-# Our experiment tracking "Lab Notebook"
-mlflow
